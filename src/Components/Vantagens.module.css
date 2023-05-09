@@ -53,6 +53,10 @@
     margin-top: -100px;
 }
 
+.box p:hover{
+    color: #353535;
+}
+
 .fundo h1 {
     text-align: center;
     padding-top: 90px;

@@ -1,9 +1,7 @@
 .fundo {
     width: 100%;
     height: 700px;
-    background-image: url(../Imagens/Menu.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(180deg, #C131D1 0%, #4472EB 193.77%);
 
 }
 
@@ -33,7 +31,6 @@
     top: 0;
     width: 100%;
     height: 0%;
-    background-color: red;
     transition: 0.26s ease-in-out;
     transform: scaleX(1);
 }
