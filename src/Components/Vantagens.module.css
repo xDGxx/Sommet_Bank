@@ -1,0 +1,108 @@
+.fundo {
+    max-width: 100%;
+    height: 750px;
+    background: linear-gradient(0.98deg, rgba(26, 31, 43, 0.9) 0.96%, #5D5F62 105.38%);
+}
+
+.box {
+    width: 290px;
+    height: 311px;
+    float: left;
+    background: #353535;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    margin-top: 100px;
+    transition: 1.2s;
+    margin-left: 55px;
+    padding-left: 20px;
+    
+
+}
+
+.box:hover {
+    background: #FFFFFF;
+    color: #353535;
+    cursor: pointer;
+    transition: 1.2s;
+}
+
+.box h5:hover {
+    color: #353535;
+}
+
+.box h5 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    color: #c6c6c6;
+    width: 100%;
+    height: 170px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.box p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #c6c6c6;
+    mix-blend-mode: exclusion;
+    padding-left: 25px;
+    margin-top: -100px;
+}
+
+.fundo h1 {
+    text-align: center;
+    padding-top: 90px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 70px;
+    color: #FFFFFF;
+}
+
+.phone{
+    color: #c6c6c6;
+    font-size: 35px;
+    padding-left: 23px;
+}
+
+.cartao{
+    color: #c6c6c6;
+    font-size: 35px;
+    padding-left: 23px;
+}
+
+.coin{
+    color: #c6c6c6;
+    font-size: 35px;
+    padding-left: 23px;
+}
+
+.cupon{
+    color: #c6c6c6;
+    font-size: 35px;
+    padding-left: 23px;
+}
+
+.phone, .cartao, .coin, .cupon{
+    padding-top: 90px;
+}
+
+.phone:hover{
+    color: #353535;
+}
+
+.cartao:hover{
+    color: #353535;
+}
+
+.coin:hover{
+    color: #353535;
+}
+
+.cupon:hover{
+    color: #353535;
+}

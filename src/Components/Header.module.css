@@ -1,0 +1,39 @@
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    float: left;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #CC00FF 1.44%, #B438D4 69.12%);
+}
+
+.logo img {
+    width: 100px;
+    height: 83px;
+    margin-left: 54px;
+    margin-top: 10px;
+}
+
+.login {
+    display: flex;
+    margin-left: 1080px;
+    font-size: 19px;
+    width: 250px;
+    height: 20px;
+    margin-top: 40px;
+}
+
+.login button {
+    width: 200px;
+    height: 40px;
+    color: #e600ff;
+    border: 4px solid #e600ff;
+    background-color: #b538d400;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 19px;
+}
+
+.login button:hover{
+    color: #fff;
+    border-color: #fff;
+}

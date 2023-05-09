@@ -1,0 +1,72 @@
+.fundo {
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.fundo h2 {
+    background: linear-gradient(95.68deg, #D83DFF 12.66%, #4472EB 54.52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-top: -500px;
+    margin-left: 900px;
+    font-size: 40px;
+}
+
+.fundo h1 {
+    background: linear-gradient(95.68deg, #D83DFF 12.66%, #4472EB 54.52%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 900px;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+.button {
+    position: relative;
+    width: 300px;
+    height: 82px;
+    background: linear-gradient(180deg, #C131D1 0%, #4472EB 193.77%);
+    box-shadow: -5px 4px 10px rgb(255, 255, 255);
+    border-radius: 50px;
+    margin-left: 900px;
+    transition: 2s;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    transition: 0.26s ease-in-out;
+    transform: scaleX(1);
+}
+
+.button:hover::before {
+    transform: scaleX(0);
+}
+
+
+.button:hover {
+    background: #e1dfdf;
+    box-shadow: -10px 8px 20px #C131D1;
+
+}
+
+.button p {
+    text-align: center;
+    padding-top: 30px;
+    color: #FFF;
+    padding: 29px;
+    font-size: 20px;
+}
+
+.button p:hover {
+    color: #C131D1;
+}

@@ -1,0 +1,45 @@
+.celular {
+    width: 100%;
+    height: 900px;
+    background-image: url(../Imagens/ssecurity.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.celular h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: #4472EB;
+    margin-left: 900px;
+    padding-top: 290px;
+    text-shadow: #4472EB;
+}
+
+.celular h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 77px;
+    line-height: 70px;
+    background: linear-gradient(180deg, #D83DFF 0%, #4472EB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 900px;
+    padding-top: 60px;
+    width: 380px;
+}
+
+.celular p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 35px;
+    background: linear-gradient(180deg, #4472EB 0%, #D83DFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-left: 930px;
+    padding-top: 130px;
+}

@@ -1,0 +1,23 @@
+.footer_fundo{
+    width: 100%;
+    height: 150px;
+    background-color: #282525;
+    margin-top: 95px;
+}
+
+.social{
+    float: right;
+    padding-left: 30px;
+    margin-right: 20px;
+    width: 20%;
+    height: 20%;
+    font-size: 50px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.footer_fundo img{
+    margin-left: 43%;
+    margin-top: 30px;
+}
